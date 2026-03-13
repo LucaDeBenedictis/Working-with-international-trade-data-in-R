@@ -6,7 +6,7 @@
 # comtradr library
 # Comtrade API key at <https://comtradedeveloper.un.org/signin?returnUrl=%2Fapi-details#api=comtrade-v1&operation=get-get>
 # Countries' exports and imports
-# An example with Italian data
+# An example with Italian wine data
 # 
 # Week 6
 # =================================================================================================
@@ -26,10 +26,7 @@ library(comtradr)
 #--------------------------------------------
 
 set_primary_comtrade_key("cb074baa3e7d4056a3c4ee4597dde96e")
-#set_primary_comtrade_key("41683b2fedef42c2a8d192969bb9d868")
 get_primary_comtrade_key()	# just to check
-
-#--------------------------------------------
 
 #----------------------------------------------
 # Figure 1 in 2022 UN Yearbook
